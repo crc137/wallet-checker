@@ -25,9 +25,14 @@ out/
 .temp/
 .tmp/
 
+# Системные файлы
+.DS_Store
+Thumbs.db
+
 # Редакторы и IDE
 .idea/
 .vscode/
+*.sublime-project
+*.sublime-workspace
 *.swp
 *.swo
-.DS_Store 
