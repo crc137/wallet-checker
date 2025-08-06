@@ -5,7 +5,7 @@
   "main": "wallet-checker.js",
   "scripts": {
     "start": "node wallet-checker.js",
-    "test": "echo \"No tests specified\""
+    "test": "node test.js"
   },
   "keywords": [
     "ton",

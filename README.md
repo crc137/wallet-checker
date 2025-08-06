@@ -1,5 +1,7 @@
 # Проверка кошелька TON
 
+[![Node.js CI](https://github.com/crc137/wallet-checker/actions/workflows/node.yml/badge.svg)](https://github.com/crc137/wallet-checker/actions/workflows/node.yml)
+
 Этот проект предоставляет простой инструмент для проверки кошелька TON и попытки вычисления адреса из StateInit.
 
 Репозиторий: [https://github.com/crc137/wallet-checker](https://github.com/crc137/wallet-checker)
@@ -42,4 +44,18 @@ node wallet-checker.js EQDr1yCktbp69_8uYOcE44_3bK0qazthAS028rzJqFve6BZe
 
 1. Использовать другую библиотеку для работы с TON (например, `@ton/ton`)
 2. Реализовать парсер формата `x{...}` для преобразования в Cell объект
-3. Использовать другой API метод, который возвращает данные в формате BOC или base64 
+3. Использовать другой API метод, который возвращает данные в формате BOC или base64
+
+## Разработка
+
+### Тестирование
+
+Для запуска тестов выполните:
+
+```
+npm test
+```
+
+### CI/CD
+
+Проект настроен для работы с GitHub Actions. При каждом пуше в ветку `main` и при создании pull request выполняются тесты на различных версиях Node.js. 
