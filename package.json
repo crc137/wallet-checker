@@ -1,0 +1,30 @@
+{
+  "name": "wallet-checker",
+  "version": "1.0.0",
+  "description": "Инструмент для проверки кошелька TON и вычисления адреса из StateInit",
+  "main": "wallet-checker.js",
+  "scripts": {
+    "start": "node wallet-checker.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ton",
+    "blockchain",
+    "wallet",
+    "checker"
+  ],
+  "author": "CoonDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crc137/wallet-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crc137/wallet-checker/issues"
+  },
+  "homepage": "https://github.com/crc137/wallet-checker#readme",
+  "dependencies": {
+    "@ton-api/client": "^0.4.0",
+    "@ton/core": "^0.61.0"
+  }
+}
