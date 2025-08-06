@@ -2,12 +2,14 @@
 
 Этот проект предоставляет простой инструмент для проверки кошелька TON и попытки вычисления адреса из StateInit.
 
+Репозиторий: [https://github.com/crc137/wallet-checker](https://github.com/crc137/wallet-checker)
+
 ## Установка
 
 1. Клонируйте репозиторий:
 ```
-git clone <url-репозитория>
-cd <папка-репозитория>
+git clone https://github.com/crc137/wallet-checker.git
+cd wallet-checker
 ```
 
 2. Установите зависимости:
