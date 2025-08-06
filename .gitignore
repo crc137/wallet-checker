@@ -36,3 +36,6 @@ Thumbs.db
 *.sublime-workspace
 *.swp
 *.swo
+
+# Скрипты и утилиты
+github.sh
