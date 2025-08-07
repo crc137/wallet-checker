@@ -2,10 +2,16 @@
   "name": "wallet-checker",
   "version": "1.0.0",
   "description": "Инструмент для проверки кошелька TON и вычисления адреса из StateInit",
-  "main": "wallet-checker.js",
+  "main": "src/cli.js",
+  "bin": {
+    "ton-wallet-checker": "src/cli.js"
+  },
   "scripts": {
-    "start": "node wallet-checker.js",
-    "test": "node test.js"
+    "start": "node src/cli.js",
+    "test": "node test.js",
+    "dev": "node src/cli.js",
+    "lint": "echo 'Linting not configured yet'",
+    "analyze": "node src/cli.js"
   },
   "keywords": [
     "ton",
